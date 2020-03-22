@@ -3,9 +3,9 @@ var vitesse = 600;
 var dodger = {
 	preload: function(){
 		// chargement du jeu
-		game.load.image('fond','assets/bon.jpg');
-		game.load.image('player','assets/player.png');
-		game.load.image('mechant','assets/joker.png');
+		game.load.image('fond','bon.jpg');
+		game.load.image('player','player.png');
+		game.load.image('mechant','joker.png');
 	},
 	create: function(){
 		// setup + affichage 
